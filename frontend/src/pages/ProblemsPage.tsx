@@ -12,6 +12,7 @@ const ProblemsPage: React.FC = () => {
   const navigate = useNavigate();
 
   const topics: Topic[] = [
+    { id: 1, title: "Arrays", desc: "Learn basics of arrays and operations.", icon: "fa-solid fa-table" },
     { id: 2, title: "Linked List", desc: "Understand nodes and pointers.", icon: "fa-solid fa-link" },
     { id: 3, title: "Stack", desc: "LIFO data structure concepts.", icon: "fa-solid fa-layer-group" },
     { id: 4, title: "Queue", desc: "FIFO structure and applications.", icon: "fa-solid fa-arrows-turn-right" },
